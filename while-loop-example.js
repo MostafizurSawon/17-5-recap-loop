@@ -1,18 +1,19 @@
 var number = 1; // loop variable
-// while (number <= 20) {
-//     console.log(number);
-//     number++;
-// }
-
-// odd numbers
-// while (number <= 20) {
-//     console.log(number);
-//     number = number + 2;
-// }
+while (number <= 5) {
+    console.log(number);
+    number++;
+}
 
 // even numbers
-number = 0;
-while (number <= 20) {
-    console.log(number);
-    number = number + 2;
+numberTwo = 0;
+while (numberTwo <= 20) {
+    console.log(numberTwo);
+    numberTwo = numberTwo + 2;
+}
+
+// odd numbers
+let numberThree = 1;
+while (numberThree <= 20) {
+    console.log(numberThree);
+    numberThree = numberThree + 2;
 }
